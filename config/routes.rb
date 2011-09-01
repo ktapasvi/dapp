@@ -5,7 +5,7 @@ Dapp::Application.routes.draw do
  match '/about', :to => 'pages#about'
  match '/contact', :to => 'pages#help'
  match '/', :to => 'pages#home'
- match '/signup', :to => 'users#new'
+ match '/sign_up', :to => 'users#new'
 
  root :to => 'pages#home'
 
